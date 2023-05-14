@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #707070;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.centralized-content {
+    margin: 0 50px 0 50px;
+    position: relative;
+}
+.nav-image{
+    background-image: url("http://prolex.themetags.com/img/hero-bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
+
+.nav-links {
+    display: flex;
+    height: 100%;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+
+.nav-container {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    margin-bottom: 100px;
+    background-color: black;
+
+}
+strong{
+    color: red;
+}
+
+.logo{
+    flex: 1;
+}
+.logo img{
+    border: 1px solid white
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    padding: 20px;
+    color:white;
+    opacity: 0.7;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-items:center;
+    margin-top: 70px;
+}
+.header-text{
+    color:aliceblue;
+    text-align: center;
+    width: 50%
+}
+.header-text h1{
+    font-weight: bold;
+
+}
+.header-image{
+    flex: 1;
+    align-self: center;
+    text-align: right;
+    padding-top: 80px;
+}
+.header-text strong{
+    color: red;
+}
+.features-section{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+h2{
+    color: black;
+    font-size: 2rem;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+}
+
+.text-boxes{
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    background-color:white;
+    margin: 20px;
+    text-align: center !important;
+    box-shadow: 0 3px 20px 0px rgb(0 0 0 / 12%);
+    border-radius: 1.5rem !important;
+    height: 100%;
+    vertical-align:middle;
+    max-width: 25%;
+}
+.boxes h3,{
+    color: black;
+    font-size: 1.5rem;
+}
+.text-boxes:hover{
+    transition: all .1s ease-out;
+    will-change: transform;
+}
+.run-section{
+    background: #f4f4f4;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.run{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;   
+}
+.running{
+    max-width: 80%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.run ul {
+
+}
+
+.run li{
+    list-style: none;
+}
+
+.run li::before {
+    content: T;
+}
+.key-features-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+}
+.div-container{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+}
+.key-features-image{
+    flex: 1;
+    text-align: center;
+    max-width: 100%;
+}
+.key-features-image img{
+    width: 350px;
+}
+.key-features{
+    flex: 1;
+}
+.key-features h2{
+    margin-bottom: -16px;
+}
+.battery-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    background: #f4f4f4;
+    max-height: 100%
+}
+.battery-container{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.battery-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.battery-life-div{
+    display: flex;
+    align-items: center;
+}
+.battery-life{
+    text-align: center;
+    flex:1;
+}
+.gps-mode{
+    flex: 1;
+    text-align: center;
+}
+.battery-section .color{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 90%;
+    font-weight: 700;
+    font-size: 6rem;
+}
+.small-p{
+    padding: 0px 60px 0px 60px;
+    margin-top: -23px;
+}
+.battery-life h4{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    color: black;
+}
+.tech-specs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    min-height: 750px;
+}
+.tech-grid{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+}
+.both{
+    display: flex;
+    flex-wrap: wrap;
+}
+.both-container{
+    text-align: center;
+    padding: 0 50px 0 50px;
+    margin-top: 0px;
+}
+.both-container p{
+    margin-top: -24px;
+}
+.grid-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.grid{
+    margin-right: 0px;
+    width: 17.1rem;
+    margin-bottom: 10px;
+}
+.grid h4{
+    font-size: 1.5rem;
+    margin-top: -26px;
+    color: black;
+}
+.grid p{
+    margin-top: -26px;
+}
+.tech-img{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-width: 450px;
+}
+.tech-img img{
+    padding-left: -20px;
+}
+.grid li{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: red;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url("https://prolex.themetags.com/img/bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.div-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.text-download h3{
+    font-size: 2rem;
+    color: white;
+}
+.text-download{
+    color: black;
+    font: inherit;
+    flex: 1;
+}
+.img-download{
+    flex: 1;
+    text-align: center;
+}
+.text-download p{
+    font-size: 1.25rem;
+    margin-top: -20px
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px
+}
+.box-subscribe{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-subscribe h3{
+    color: black;
+    font-size: 2rem;
+}
+.box-subscribe p{
+    font: inherit;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.subscribe-container {
+    width: 60%;
+    position: relative;
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+.subscribe-container .email {
+    display: inline;
+    position: absolute;
+    top: 10px;
+    left: 21px;
+}
+
+.subscribe-container .subscribe-button {
+    display: inline;
+    float: right;
+    padding: 10px 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 332px;
+    align-items: center;
+}
+
+.div-footer{
+    display: flex;
+    width: 80%;
+    height: 70%;
+}
+
+.banner-footer{
+    flex: 1;
+    padding-right: 60px;
+}
+
+.banner-footer p{
+    color: #f4f4f4;
+}
+
+.other-links{
+    flex: 1;
+    padding-left: 60px;
+}
+
+.location{
+    flex: 1; 
+    padding-left: 50px;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.other-links li{
+    list-style: none;
+}
+
+.other-links ul{
+    padding-left: 0;
+    color: #f4f4f4;
+    font-size: 0.95rem;
+    padding-top: 0px;
+    margin-top: -18px; 
+}
+
+.footer-copyright{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
